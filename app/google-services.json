@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "359086719734",
+    "project_id": "usermanagement-dd0ca",
+    "storage_bucket": "usermanagement-dd0ca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359086719734:android:6ce23a7b2b4f790bdba2d7",
+        "android_client_info": {
+          "package_name": "com.example.usermanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359086719734-ceocomutqson3nfl009pimh5mlhj0pij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1J8IT-s1hidBFVIKUkF_6SK3v17xAC04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359086719734-ceocomutqson3nfl009pimh5mlhj0pij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
