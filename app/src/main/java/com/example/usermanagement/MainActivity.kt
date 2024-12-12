@@ -15,10 +15,14 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.usermanagement.Pages.Login
 import com.example.usermanagement.ui.theme.UserManagementTheme
+import com.google.firebase.firestore.FirebaseFirestore
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        val db=FirebaseFirestore.getInstance()
+
         enableEdgeToEdge()
         val authViewModel : AuthViewModel by viewModels()
         setContent {
